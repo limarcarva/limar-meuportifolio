@@ -1,0 +1,115 @@
+
+img{
+    width: 100px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#tecnologias img{
+  width: 100px;
+  height: 100px;
+  
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* espaço entre os ícones */
+  margin-top: 10px;
+}
+footer div img {
+  width: 35px;   /* tamanho ideal */
+  height: 35px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer div img:hover {
+  transform: scale(1.1);
+}
+body {
+  margin: 0;
+   background-color: #9c8b6f; /* ajuste fino depois */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+/* Área principal */
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+/* Imagem sempre centralizada */
+#img-perfil {
+  width: 250px;
+  max-width: 80%;
+  border-radius: 50%;
+}
+/* Texto controlado */
+#infor {
+  max-width: 600px;
+}
+/* Tecnologias */
+#tecnologias {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* evita quebrar feio em telas pequenas */
+}
+footer {
+  display: flex;
+  flex-direction: column; /* empilha os itens */
+  align-items: center;   /* centraliza horizontal */
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+footer h4 {
+  margin: 5px 0;
+}
+button, .nav-item {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px); /* Efeito desfoque */
+    padding: 8px 20px;
+    border-radius: 50px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: #2d2a26;
+    color: #fff;
+    transform: translateY(-2px); /* Elevação ao passar o mouse */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+#projetos{
+  max-width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+
+}
